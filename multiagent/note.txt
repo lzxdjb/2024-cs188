@@ -1,0 +1,21 @@
+python3 pacman.py -p ReflexAgent
+
+python3 pacman.py -p ReflexAgent -l testClassic
+python3 pacman.py --frameTime 0 -p ReflexAgent -k 1
+python3 pacman.py --frameTime 0 -p ReflexAgent -k 2
+
+python3 autograder.py -q q1
+python3 autograder.py -q q1 --no-graphics
+
+
+python3 autograder.py -q q2 --no-graphics
+
+
+python3 autograder.py -q q3
+python3 autograder.py -q q3 --no-graphics
+
+python3 autograder.py -q q4
+
+python3 autograder.py -q q5
+
+python3 autograder.py -q q5 --no-graphics
